@@ -19,12 +19,14 @@ function startTime(){
 
 function stopTime() {
     clearInterval(timerStar)
+    timerStar = false
 }
 
 function restartTime() {
     stopTime()
     timer = 0
     timerText.innerHTML = 0
+    timerStar = false
 }
 
 
