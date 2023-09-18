@@ -1,11 +1,72 @@
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333;
+}
+
+header {
+  margin-bottom: 10%;
 }
 
 section {
-    text-align: center; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 2%;
+  border-radius: 20px;
+  background-color: #8a8989;
+  width: 50%;
+  height: 90%;
+}
+
+.title {
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  color: white;
+}
+
+button {
+  width: 40%;
+  height: 100%;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.time {
+  margin: 0 20%;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  padding: 14%;
+  border: 5px solid #333;
+  border-radius: 50%;
+  margin-bottom: 10%;
+  background-color: #cacaca;
+  color: #333;
+}
+
+.btn-time {
+  flex-direction: column;
+}
+
+.stop {
+  display: none;
+  background-color: red;
+}
+
+.stop:hover {
+  background-color: rgb(197, 33, 33);
+}
+
+.start {
+  background-color: #003849;
+}
+
+.restart {
+  background-color: #333;
 }
